@@ -26,7 +26,7 @@ body, html{
 	margin: 0 auto;
 	font-family: GillSans, Calibri, sans-serif;
 	background-color: #eceff1;
-	min-height: 100vh;
+	min-height: 700px;
 }
 /* ---------------------------------------------------------------------------------
 	1.  Structure
@@ -44,7 +44,7 @@ html .container {
 .content {
 	font-size: 13pt;  
 	background-color: white;
-	padding: 50px;
+	padding: 40px;
 	margin: 20px 0;
 }
 /* ---------------------------------------------------------------------------------
@@ -126,8 +126,7 @@ footer {
 	padding: 30px;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 80%;
 	overflow: auto;
-	margin-top: 50px;
 	float: right;
 }
