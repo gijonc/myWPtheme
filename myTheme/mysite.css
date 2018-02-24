@@ -1,0 +1,133 @@
+/* -----------------------------------------------------------------------------------
+
+	0.	CSS Reset
+	1.	Document Setup
+	2.  Structure
+	3.	Navigation
+	4.	Header & footer
+	5.	Blog
+	6.  Single Post
+	7.	Post Content
+	8.	Comments
+	9.	Respond
+	10.	Pagination
+	11.	Page & Page Templates
+	12.	Credits
+	13.	No JS Fixes
+	14. Responsive
+
+----------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------
+	0.  CSS Reset
+ --------------------------------------------------------------------------------- */
+body, html{
+	position:relative;
+	width: 88%;
+	margin: 0 auto;
+	font-family: GillSans, Calibri, sans-serif;
+	background-color: #eceff1;
+	min-height: 100vh;
+}
+/* ---------------------------------------------------------------------------------
+	1.  Structure
+ --------------------------------------------------------------------------------- */
+
+
+
+
+
+html .container {
+	float: right;
+	width: 78%;
+}
+
+.content {
+	font-size: 13pt;  
+	background-color: white;
+	padding: 50px;
+	margin: 20px 0;
+}
+/* ---------------------------------------------------------------------------------
+	3.  Project & proiect-post
+ --------------------------------------------------------------------------------- */
+.card {
+	margin: auto;
+}
+
+.card .card-title{
+	font-size: 32px;
+	font-weight: 400;
+	padding-bottom: 12px;
+}
+
+.back_btn i{
+	font-size: 30pt;
+	position: fixed;
+}
+
+.project-tags{
+	padding: 10px;
+}
+
+.chip{
+	font-size: 16px;
+	padding: 0px 10px;
+	margin-bottom: 0;
+}
+
+.back_btn{
+	text-transform: uppercase;
+	font-size:14pt;
+	border-bottom: 2px solid;
+}
+/* ---------------------------------------------------------------------------------
+	4.  Header
+ --------------------------------------------------------------------------------- */
+/* Style the tab content */
+.nav-btn {
+	position: fixed;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.side-nav.fixed {
+	left:auto;
+    top: auto;
+	width: 16%;
+	/* background-color: black; */
+}
+
+.side-nav li>a{
+    text-decoration: none;
+    height: 60px;
+    font-size: 20px;
+	padding: 2% 15%;
+}
+
+footer {
+    background-color: #ffcc80;
+	padding: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	overflow: auto;
+	margin-top: 50px;
+	float: right;
+}
