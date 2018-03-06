@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 	<div class="container">
 		<div class="content">
-            <?php $flickr_url = "https://www.flickr.com/photos/153925004@N07/"; ?>
     
 
 			<?php if ( have_posts() ) : while( have_posts() ) : the_post(); ?>
@@ -15,10 +14,7 @@
 						<h2>
 							<?php the_title(); ?>
 						</h2>
-						<p class="grey-text lighten-1">
-                            - source from Flickr
-                            <a href="<?php echo $flickr_url ?>" class="fa fa-flickr"></a>
-						</p>
+
 					</div>
 
 					<div class="divider"></div>

@@ -28,23 +28,6 @@
 								<?php the_content(); ?>
 							</div><!-- .post-content -->
 							
-							<div class="post-meta">
-						
-								<?php if ( has_category() ) : ?>
-									<p class="categories">
-										<?php the_category( ', ' ); ?>
-									</p>
-								<?php endif; ?>
-								
-								<?php if ( has_tag() ) : ?>
-									<p class="tags">
-										<?php the_tags( '', ' ' ); ?>
-									</p>
-								<?php endif; ?>
-								
-								<?php edit_post_link( 'Edit Post', '<p class="post-edit">', '</p>' ); ?>
-			
-							</div><!-- .post-meta -->
 						
 						</div><!-- .post-inner -->
 						
