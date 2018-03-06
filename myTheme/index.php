@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-
-	<div class="container">
+	
+<!-- 	<div class="container">
 			<div id="projects" class="tabcontent">
 				<?php
 					get_template_part("projects");
@@ -17,7 +17,6 @@
 					get_template_part("mygallery");
 				?>
 			</div>
-	
-	</div>
+	</div> -->
 
 <?php get_footer(); ?>

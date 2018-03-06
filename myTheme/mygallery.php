@@ -1,4 +1,4 @@
 <div>
 
-	<h1>My Gallery page</h1>
+	<h1>My Gallery is coming soon...!</h1>
 </div>

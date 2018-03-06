@@ -2,13 +2,13 @@
 
 	<div class="comments">
 	  
-		<h3 class="comment-reply-title"><?php _e( 'Comments', 'hamilton' ) ?></h3>
+		<h4 class="comment-reply-title"><?php _e( 'Comments', 'hamilton' ) ?></h4>
 		
 		<?php 
 		
 		wp_list_comments( array( 
 			'style' 		=>	'div',
-			'avatar_size'	=>	110,
+			'avatar_size'	=>	50,
 		) );
 		
 		if ( paginate_comments_links( 'echo=0' ) ) : ?>

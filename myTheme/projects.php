@@ -1,4 +1,26 @@
-<div class="project-list">
+	
+		<?php 
+			$asset_dir_url = get_stylesheet_directory_uri();
+		?>
+
+<!--       <div class="row">
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="<?php echo $asset_dir_url . '/assets/img/project-bg.jpg' ?>">
+              <h1 class="card-title">Projects</h1>
+            </div>
+          </div>
+        </div>
+      </div> -->
+  	<div class="bg-container">
+		<img src="<?php echo $asset_dir_url . '/assets/img/project-bg2.jpg' ?>"  alt="bg">
+		<div class="bg-title">
+			<i class="medium material-icons">code</i>
+			Projects
+		</div>
+	</div>
+<div class="container">
 
 	<?php if ( have_posts() ) : ?>
 		<?php
@@ -62,5 +84,4 @@
 		</div>
 
 	<?php endif; ?>
-	
 </div>

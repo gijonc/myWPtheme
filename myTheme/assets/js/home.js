@@ -23,19 +23,19 @@ jQuery(document).ready(function ($) {
 
 
 	// ajax load post content
-	// $.ajaxSetup({ cache: false });
-	// $(".project-link").click(function () {
-	// 	var post_url = $(this).attr("rel");
-	// 	var post_id = $(this).attr("id");
+	$.ajaxSetup({ cache: false });
+	$(".project-link").click(function () {
+		var post_url = $(this).attr("rel");
+		var post_id = $(this).attr("id");
 
-	// 	var more_content_id = "content-div-" + post_id;
-	// 	var more_content_div_html = "<div id=" + more_content_id + "></div> ";
-	// 	$('.more-content').prepend(more_content_div_html);
+		var more_content_id = "content-div-" + post_id;
+		var more_content_div_html = "<div id=" + more_content_id + "></div> ";
+		$('.more-content').prepend(more_content_div_html);
 
-	// 	$('.project-list').fadeOut(1000);
-	// 	$("#" + more_content_id).load(post_url);
-	// 	return false;
-	// });
+		$('.project-list').fadeOut(1000);
+		$("#" + more_content_id).load(post_url);
+		return false;
+	});
 
 	// $(".post-link").click(function () {
 	// 	var post_url = $(this).attr("rel");
