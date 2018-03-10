@@ -51,4 +51,41 @@ jQuery(document).ready(function ($) {
 	// });
 
 
+	// getting user info
+	// var start = new Date();
+
+	// $(window).unload(function() {
+	// 	var end = new Date();
+	// 		$.ajax({ 
+	// 			url: "log.php",
+	// 			data: {'timeSpent': end - start},
+	// 			async: false
+	// 		})
+	// });
+
+	var avaiableIPinfoAPI = ['https://freegeoip.net/json/',];
+
+	var UserObj = {
+		IP: " ",
+		Country: " ",
+		State: " ",
+		City: " "
+	};
+
+	$.getJSON(avaiableIPinfoAPI[0], function(data) {
+		var ipdata = JSON.stringify(data);
+		console.log(ipdata);
+
+		var _url = "http://localhost:8000/myAPI/public/visitor/add";
+
+		$.ajax({
+			type: "POST",
+			url: _url,
+			data: ipdata,
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
+		});
+	});
+
 });
+
