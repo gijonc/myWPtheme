@@ -8,21 +8,6 @@ jQuery(document).ready(function ($) {
 	$(".side-nav li:first").addClass("active");
 
 	$(".side-nav a").click(function () {
-		var url = window.location.pathname;
-		switch (url) {
-			case "":
-				
-				break;
-		
-			default:
-				break;
-		}
-
-		$(".side-nav li").removeClass("active");
-		$(this).parent().addClass("active");
-		var currentTab = $(this).attr("href");
-		$(".tabcontent").hide();
-		$(currentTab).show();
 		return false;
 	});
 
@@ -31,9 +16,6 @@ jQuery(document).ready(function ($) {
 	// 	$(".side-nav.fixed").css('width', '20%');
 	// });
 	
-	var url = window.location;
-	console.log(url);
-
 
 /*
 	// getting user info
