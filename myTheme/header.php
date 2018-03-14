@@ -34,7 +34,7 @@
 					<div class="pf-card">
 					  <img src="<?php echo $asset_dir_url . '/assets/img/prof-1.jpg' ?>" alt="roger" class="avatar">
 					  <h4><?php echo $name ?></h4>
-					  <p class="title">Web-Developer</p>
+					  <p class="title">Software-Developer</p>
 					  <p">Oregon State Universty</p>
 					</div>
 				</li>

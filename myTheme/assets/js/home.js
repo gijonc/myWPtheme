@@ -74,9 +74,8 @@ jQuery(document).ready(function ($) {
 
 	$.getJSON(avaiableIPinfoAPI[0], function(data) {
 		var ipdata = JSON.stringify(data);
-		console.log(ipdata);
 
-		var _url = "http://localhost:8000/myAPI/public/visitor/add";
+		var _url = "http://localhost/api/VisitorInfo/public/visitor/add";
 
 		$.ajax({
 			type: "POST",
