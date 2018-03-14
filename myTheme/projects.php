@@ -16,7 +16,7 @@
   	<div class="bg-container">
 		<img src="<?php echo $asset_dir_url . '/assets/img/project-bg2.jpg' ?>"  alt="bg">
 		<div class="bg-title">
-			<i class="medium material-icons">code</i>
+			<i class="material-icons">code</i>
 			Projects
 		</div>
 	</div>
